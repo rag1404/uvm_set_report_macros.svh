@@ -30,6 +30,7 @@ A Simple program to demonstrate the capabilities of uvm_set_report macros !
 
 # Example 4
 1) Finally we can set both severity and ID specific verbosity using set_report_severity_id_verbosity or set_report_severity_id_verbosity_hier for descendents.
+// Inside test build_phase after env is built, add the below line.
 
 //  env.set_report_severity_id_verbosity_hier (UVM_INFO ,"test_env", UVM_HIGH); 
 
